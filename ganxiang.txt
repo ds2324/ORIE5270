@@ -1,0 +1,13 @@
+Author: Duo (Ted) SUN (NETID ds2324)
+2018-08-21 22:00
+
+This is what i have learnt from todays class
+1. AWS: We launched AWS EC2. AWS is a reliable cloud service, with AWS, we can take advantage of a secure global computing infrastructure, the virtual backbone of Amazon.com's multi-billion dollar online business that has been honed for over a decade. AWS is very flexible, since it enable us to select the operating system, programming language, web application platform, database, and other services that we need.
+
+2. Linux: We started to use Linux system. Linux is an open-source technology with wide range of options available to users and the increased security. With Linux being open-source, we can download the source code and change it any way we like, for example Debian, Fedora, Ubuntu and Mint are just a few of the distributions available to end users, and these distributions are completely free to download.
+
+3. Vim: We have leanrt a few vim command today. One of the Vim's advantage is that it keep our fingers on the natural keyboard position: we can free our hand from the mouse with loads of shortcuts.
+
+4. Git: We have studied some basic command in git, build new threads, pull, push, merge new branch to masters. One of the biggest advantages of Git is its branching capabilities and this makes it popular with many Gitusers. When a developer wants to start working on something, no matter how big or small, they create a new branch. This ensures that the master branch always contains production-quality code. 
+
+5. Shell scripts: We have leanrnt the benefit of shell script. Shell scripts allow us to program commands in chains and have the system execute them as a scripted event, just like batch files. We also can kill or start multiple applications together and automate the process.
