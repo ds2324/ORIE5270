@@ -3,15 +3,15 @@ from numpy.linalg import norm
 from pyspark import SparkConf, SparkContext
 
 
-def assign_centroid(instance, c_list):
+def assign_centroid(datapoint, initial_centroid):
     min_dist = np.inf
-    centroid = 0
-    for idx, c in enumerate(c_list):
-        dist = norm(instance-c)
+    which_centroid = 0
+    for idx, c in enumerate(initial_centroid):
+        dist = norm(datapoint - c)
         if dist < min_dist:
             min_dist = dist
-            centroid = idx
-    return centroid
+            which_centroid = idx
+    return which_centroid
 
 
 def write_centroid(centroid):
